@@ -1,0 +1,16 @@
+
+  {
+    "mcpServers": {
+      "airbnb": {
+        "command": "npx",
+        "args": ["-y", "@openbnb/mcp-server-airbnb"]
+      },
+      "playwright": {
+        "command": "npx",
+        "args": ["@playwright/mcp@latest"],
+        "env": {
+          "DISPLAY": ":1"
+        }
+      }
+    }
+  }
