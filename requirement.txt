@@ -1,0 +1,10 @@
+# Model Context Protocol (MCP) Core SDK
+mcp>=1.25.0
+
+# Framework for Agent Orchestration
+langchain>=0.3.0
+langchain-groq>=1.1.1
+
+# Environment and Async Utilities
+python-dotenv>=1.1.1
+asyncio>=3.4.3
